@@ -1,0 +1,57 @@
+canonical_identifier: bkk:krp/KR6i0304/v1
+canonical_location: https://kanripo.org/bkk/KR6i0304/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 金光明經玄義
+  identifiers:
+    alt_id:
+    - T39n1783
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T39/T39n1783.xml
+    old_id: T39n1783
+  edition:
+    short: bkk
+editions:
+- short: 甲
+  label: 甲
+  source_xml_id: wit1
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0304_000.yaml, hash: 'sha256:8cd7a710764a7a2fb1a207910af284329513adaf26b70e5afa8855ee4c75b6c6'}
+  - {seq: 1, filename: KR6i0304_001.yaml, hash: 'sha256:66ed96138a87bbd3e149e0109350e50b5306c984a5139cbfc17535815050f7bd'}
+  - {seq: 2, filename: KR6i0304_002.yaml, hash: 'sha256:0a0b7a6b0da1dcff89ec6a35f4d19f68cf7e69257b4aa54868eb4bcbd46a1786'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0304_001.markers.yaml, hash: 'sha256:ce3554f11935bd8a9dfaa17ffaef82ad15dbc8fdf35986e66118f944ece18361'}
+  - {seq: 2, role: markers, filename: assets/KR6i0304_002.markers.yaml, hash: 'sha256:e5be39824879502de4415deb94eb551b23dcaf821e1d02da6b44de087413cfd7'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0304_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 8017
+  label: 金光明經玄義卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6i0304_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 7756
+  label: 金光明經玄義卷下
+  type: juan
+  level: 1
+hash: sha256:7a7bf9f1bf77a3c9af353124edb8e61bfc7ecbdaabe135aa3157d3ea4e7e5d4d
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
